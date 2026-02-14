@@ -1,0 +1,12 @@
+argv[0] = [D:\Test\UQM_port\sc2-uqm\build\uqm.exe]
+argv[1] = [-l]
+argv[2] = [debug3]
+The Ur-Quan Masters v0.7.0 (compiled Feb 11 2026 19:52:02)
+This software comes with ABSOLUTELY NO WARRANTY;
+for details see the included 'COPYING' file.
+
+Netplay protocol version 0.4. Netplay opponent must have UQM 0.6.9 or later.
+Initializing base SDL functionality.
+Using SDL version 1.2.15 (compiled with 1.2.15)
+Using config dir 'C:/Users/ricle/AppData/Roaming/uqm/'
+Using 'D:/Test/UQM_port/sc2-uqm/content/' as base content dir.

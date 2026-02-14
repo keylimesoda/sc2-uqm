@@ -60,7 +60,7 @@ typedef struct stdio_Handle {
 
 #ifdef WIN32
 struct stdio_EntriesIterator {
-	long dirHandle;
+	intptr_t dirHandle;
 	struct _finddata_t findData;
 	int status;
 };

@@ -28,6 +28,10 @@
 
 #include <stdarg.h>
 #include <errno.h>
+
+#ifdef WIN32
+void UQM_InstallCrashHandler(void);
+#endif
 #include "libs/graphics/gfx_common.h"
 #include "libs/graphics/cmap.h"
 #include "libs/sound/sound.h"
@@ -270,6 +274,10 @@ main (int argc, char *argv[])
 	int gfxDriver;
 	int gfxFlags;
 	int i;
+
+#ifdef WIN32
+	UQM_InstallCrashHandler();
+#endif
 
 	// NOTE: we cannot use the logging facility yet because we may have to
 	//   log to a file, and we'll only get the log file name after parsing

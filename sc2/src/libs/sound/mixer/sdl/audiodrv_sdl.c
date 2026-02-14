@@ -213,7 +213,7 @@ mixSDL_Init (audio_Driver *driver, sint32 flags)
 	}
 
 	SDL_PauseAudio (0);
-		
+	
 	return 0;
 }
 

@@ -1,0 +1,582 @@
+The Ur-Quan Masters v0.7.0 (compiled Feb 11 2026 22:03:48)
+This software comes with ABSOLUTELY NO WARRANTY;
+for details see the included 'COPYING' file.
+
+Netplay protocol version 0.4. Netplay opponent must have UQM 0.6.9 or later.
+Initializing base SDL functionality.
+Using SDL version 1.2.15 (compiled with 1.2.15)
+Using config dir 'C:/Users/ricle/AppData/Roaming/uqm/'
+Using 'D:/Test/UQM_port/sc2-uqm/content/' as base content dir.
+3 available addon packs.
+    1. 3domusic
+    2. 3dovideo
+    3. 3dovoice
+Saved games are kept in C:/Users/ricle/AppData/Roaming/uqm/save/.
+Initializing Pure-SDL graphics.
+SDL driver used: windib
+SDL initialized.
+Initializing Screen.
+Set the resolution to: 640x480x32
+  Video: R 00ff0000, G 0000ff00, B 000000ff, A 00000000
+  Internal: R 00ff0000, G 0000ff00, B 000000ff, A ff000000
+Screen scalers are using optimized C code
+0 joysticks were found.
+Initializing SDL audio subsystem.
+SDL audio subsystem initialized.
+Opening SDL audio device.
+    using dsound at 44100 Hz 16 bit stereo, 4096 samples audio buffer
+Initializing mixer.
+Mixer initialized.
+Initializing sound decoders.
+Sound decoders initialized.
+Loading resource index 'uqm.rmp'
+Loading resource index '3domusic.rmp'
+Loading resource index '3dovoice.rmp'
+	'base/uqm.ct' -- 104466 bytes
+We've loaded the Kernel
+Script directory 'base/script/initgame': loading 1 file(s).
+Loading script 'initprops.lua'.
+	'base/ui/title.ani' -- 21 bytes
+	'base/ships/arilou/skiff-icons.ani' -- 62 bytes
+	'base/ships/arilou/skiff-meleeicons.ani' -- 68 bytes
+	'base/ships/arilou/skiff.txt' -- 449 bytes
+	'base/ships/chmmr/avatar-icons.ani' -- 62 bytes
+	'base/ships/chmmr/avatar-meleeicons.ani' -- 72 bytes
+	'base/ships/chmmr/avatar.txt' -- 395 bytes
+	'base/ships/human/cruiser-icons.ani' -- 64 bytes
+	'base/ships/human/cruiser-meleeicons.ani' -- 73 bytes
+	'base/ships/human/cruiser.txt' -- 373 bytes
+	'base/ships/orz/nemesis-icons.ani' -- 66 bytes
+	'base/ships/orz/nemesis-meleeicons.ani' -- 74 bytes
+	'base/ships/orz/nemesis.txt' -- 431 bytes
+	'base/ships/pkunk/fury-icons.ani' -- 60 bytes
+	'base/ships/pkunk/fury-meleeicons.ani' -- 68 bytes
+	'base/ships/pkunk/fury.txt' -- 371 bytes
+	'base/ships/shofixti/scout-icons.ani' -- 62 bytes
+	'base/ships/shofixti/scout-meleeicons.ani' -- 68 bytes
+	'base/ships/shofixti/scout.txt' -- 441 bytes
+	'base/ships/spathi/eluder-icons.ani' -- 63 bytes
+	'base/ships/spathi/eluder-meleeicons.ani' -- 72 bytes
+	'base/ships/spathi/eluder.txt' -- 426 bytes
+	'base/ships/supox/blade-icons.ani' -- 61 bytes
+	'base/ships/supox/blade-meleeicons.ani' -- 69 bytes
+	'base/ships/supox/blade.txt' -- 363 bytes
+	'base/ships/thraddash/torch-icons.ani' -- 62 bytes
+	'base/ships/thraddash/torch-meleeicons.ani' -- 70 bytes
+	'base/ships/thraddash/torch.txt' -- 381 bytes
+	'base/ships/utwig/jugger-icons.ani' -- 64 bytes
+	'base/ships/utwig/jugger-meleeicons.ani' -- 72 bytes
+	'base/ships/utwig/jugger.txt' -- 357 bytes
+	'base/ships/vux/intruder-icons.ani' -- 68 bytes
+	'base/ships/vux/intruder-meleeicons.ani' -- 74 bytes
+	'base/ships/vux/intruder.txt' -- 291 bytes
+	'base/ships/yehat/terminator-icons.ani' -- 72 bytes
+	'base/ships/yehat/terminator-meleeicons.ani' -- 79 bytes
+	'base/ships/yehat/terminator.txt' -- 467 bytes
+	'base/ships/melnorme/trader-icons.ani' -- 63 bytes
+	'base/ships/melnorme/trader-meleeicons.ani' -- 72 bytes
+	'base/ships/melnorme/trader.txt' -- 411 bytes
+	'base/ships/druuge/mauler-icons.ani' -- 63 bytes
+	'base/ships/druuge/mauler-meleeicons.ani' -- 72 bytes
+	'base/ships/druuge/mauler.txt' -- 375 bytes
+	'base/ships/ilwrath/avenger-icons.ani' -- 64 bytes
+	'base/ships/ilwrath/avenger-meleeicons.ani' -- 74 bytes
+	'base/ships/ilwrath/avenger.txt' -- 407 bytes
+	'base/ships/mycon/podship-icons.ani' -- 66 bytes
+	'base/ships/mycon/podship-meleeicons.ani' -- 74 bytes
+	'base/ships/mycon/podship.txt' -- 371 bytes
+	'base/ships/slylandro/probe-icons.ani' -- 60 bytes
+	'base/ships/slylandro/probe-meleeicons.ani' -- 70 bytes
+	'base/ships/slylandro/probe.txt' -- 409 bytes
+	'base/ships/umgah/drone-icons.ani' -- 62 bytes
+	'base/ships/umgah/drone-meleeicons.ani' -- 68 bytes
+	'base/ships/umgah/drone.txt' -- 409 bytes
+	'base/ships/urquan/dreadnought-icons.ani' -- 73 bytes
+	'base/ships/urquan/dreadnought-meleeicons.ani' -- 82 bytes
+	'base/ships/urquan/dreadnought.txt' -- 467 bytes
+	'base/ships/zoqfotpik/stinger-icons.ani' -- 66 bytes
+	'base/ships/zoqfotpik/stinger-meleeicons.ani' -- 74 bytes
+	'base/ships/zoqfotpik/stinger.txt' -- 409 bytes
+	'base/ships/syreen/penetrator-icons.ani' -- 72 bytes
+	'base/ships/syreen/penetrator-meleeicons.ani' -- 79 bytes
+	'base/ships/syreen/penetrator.txt' -- 385 bytes
+	'base/ships/kohrah/marauder-icons.ani' -- 66 bytes
+	'base/ships/kohrah/marauder-meleeicons.ani' -- 76 bytes
+	'base/ships/kohrah/marauder.txt' -- 471 bytes
+	'base/ships/androsynth/guardian-icons.ani' -- 68 bytes
+	'base/ships/androsynth/guardian-meleeicons.ani' -- 75 bytes
+	'base/ships/androsynth/guardian.txt' -- 431 bytes
+	'base/ships/chenjesu/broodhome-icons.ani' -- 68 bytes
+	'base/ships/chenjesu/broodhome-meleeicons.ani' -- 78 bytes
+	'base/ships/chenjesu/broodhome.txt' -- 411 bytes
+	'base/ships/mmrnmhrm/xform-icons.ani' -- 60 bytes
+	'base/ships/mmrnmhrm/xform-meleeicons.ani' -- 70 bytes
+	'base/ships/mmrnmhrm/xform.txt' -- 437 bytes
+	'base/fonts/starcon.fon' -- 1 bytes
+	'base/fonts/tiny.fon' -- 1 bytes
+	'base/ui/activity.ani' -- 269 bytes
+	'base/ui/status.ani' -- 150 bytes
+	'base/gamestrings.txt' -- 18319 bytes
+	'base/fonts/micro.fon' -- 1 bytes
+	'base/ui/menu.snd' -- 60 bytes
+_GetSoundBankData(): loading base/ui/menusnd01.wav
+_GetSoundBankData(): decoded bytes 1971
+_GetSoundBankData(): loading base/ui/menusnd02.wav
+_GetSoundBankData(): decoded bytes 1955
+_GetSoundBankData(): loading base/ui/menusnd03.wav
+_GetSoundBankData(): decoded bytes 1576
+_GetSoundBankData(): loading base/ui/menusnd04.wav
+_GetSoundBankData(): decoded bytes 2399
+	'base/battle/stars.ani' -- 69 bytes
+	'base/battle/boom-big.ani' -- 236 bytes
+	'base/battle/boom-med.ani' -- 238 bytes
+	'base/battle/boom-sml.ani' -- 239 bytes
+	'base/battle/blast-big.ani' -- 216 bytes
+	'base/battle/blast-med.ani' -- 216 bytes
+	'base/battle/blast-sml.ani' -- 216 bytes
+	'base/battle/asteroid-big.ani' -- 670 bytes
+	'base/battle/asteroid-med.ani' -- 630 bytes
+	'base/battle/asteroid-sml.ani' -- 630 bytes
+	'base/ui/newgame.ani' -- 189 bytes
+Trying to get undefined resource 'music.mainmenu'
+Thread 'Unknown (probably renderer)' blocking on 'DCQ'
+	'base/battle/battle.snd' -- 74 bytes
+_GetSoundBankData(): loading base/battle/getcrew.wav
+_GetSoundBankData(): decoded bytes 2937
+_GetSoundBankData(): loading base/battle/shipdies.wav
+_GetSoundBankData(): decoded bytes 6887
+_GetSoundBankData(): loading base/battle/boom1.wav
+_GetSoundBankData(): decoded bytes 945
+_GetSoundBankData(): loading base/battle/boom23.wav
+_GetSoundBankData(): decoded bytes 2147
+_GetSoundBankData(): loading base/battle/boom45.wav
+_GetSoundBankData(): decoded bytes 4621
+_GetSoundBankData(): loading base/battle/boom67.wav
+_GetSoundBankData(): decoded bytes 4791
+	'base/ui/meleepickship.ani' -- 62 bytes
+	'base/ui/meleemenu.ani' -- 1278 bytes
+Trying to get undefined resource 'music.meleemenu'
+	'base/planets/magma-big.ani' -- 30 bytes
+	'base/planets/magma-med.ani' -- 30 bytes
+	'base/planets/magma-sml.ani' -- 28 bytes
+	'addons/3domusic/battle.ogg' -- 1507552 bytes
+_GetMusicData(): loading addons/3domusic/battle.ogg
+    decoder: Ogg Vorbis, rate 44100 format 17
+InitGalaxy(): transition_width = 4096, transition_height = 3840
+	'base/ships/druuge/mauler-icons.ani' -- 63 bytes
+	'base/ships/druuge/mauler-meleeicons.ani' -- 72 bytes
+	'base/ships/druuge/mauler.txt' -- 375 bytes
+	'base/ships/druuge/mauler-big.ani' -- 468 bytes
+	'base/ships/druuge/mauler-med.ani' -- 454 bytes
+	'base/ships/druuge/mauler-sml.ani' -- 448 bytes
+	'base/ships/druuge/cannon-big.ani' -- 672 bytes
+	'base/ships/druuge/cannon-med.ani' -- 673 bytes
+	'base/ships/druuge/cannon-sml.ani' -- 684 bytes
+	'base/ships/druuge/mauler-cap.ani' -- 464 bytes
+	'base/ships/druuge/mauler.mod' -- 6109 bytes
+_GetMusicData(): loading base/ships/druuge/mauler.mod
+    decoder: MikMod, rate 44100 format 17
+	'base/ships/druuge/mauler.snd' -- 28 bytes
+_GetSoundBankData(): loading base/ships/druuge/primary.wav
+_GetSoundBankData(): decoded bytes 3375
+_GetSoundBankData(): loading base/ships/druuge/secondary.wav
+_GetSoundBankData(): decoded bytes 12243
+	'base/ships/human/cruiser-icons.ani' -- 64 bytes
+	'base/ships/human/cruiser-meleeicons.ani' -- 73 bytes
+	'base/ships/human/cruiser.txt' -- 373 bytes
+	'base/ships/human/cruiser-big.ani' -- 492 bytes
+	'base/ships/human/cruiser-med.ani' -- 470 bytes
+	'base/ships/human/cruiser-sml.ani' -- 464 bytes
+	'base/ships/human/saturn-big.ani' -- 725 bytes
+	'base/ships/human/saturn-med.ani' -- 700 bytes
+	'base/ships/human/saturn-sml.ani' -- 704 bytes
+	'base/ships/human/cruiser-cap.ani' -- 478 bytes
+	'base/ships/human/cruiser.mod' -- 9908 bytes
+_GetMusicData(): loading base/ships/human/cruiser.mod
+    decoder: MikMod, rate 44100 format 17
+	'base/ships/human/cruiser.snd' -- 28 bytes
+_GetSoundBankData(): loading base/ships/human/primary.wav
+_GetSoundBankData(): decoded bytes 17059
+_GetSoundBankData(): loading base/ships/human/secondary.wav
+_GetSoundBankData(): decoded bytes 3347
+Thread 'Unknown (probably renderer)' blocking on 'DCQ'
+SoundDecoder_Decode(): eof for base/ships/human/cruiser.mod
+StreamDecoderTaskFunc(): finished playing base/ships/human/cruiser.mod
+	'base/ships/syreen/penetrator-icons.ani' -- 72 bytes
+	'base/ships/syreen/penetrator-meleeicons.ani' -- 79 bytes
+	'base/ships/syreen/penetrator.txt' -- 385 bytes
+	'base/ships/syreen/penetrator-big.ani' -- 537 bytes
+	'base/ships/syreen/penetrator-med.ani' -- 512 bytes
+	'base/ships/syreen/penetrator-sml.ani' -- 512 bytes
+	'base/ships/syreen/dagger-big.ani' -- 448 bytes
+	'base/ships/syreen/dagger-med.ani' -- 448 bytes
+	'base/ships/syreen/dagger-sml.ani' -- 448 bytes
+	'base/ships/syreen/penetrator-cap.ani' -- 517 bytes
+	'base/ships/syreen/penetrator.mod' -- 5212 bytes
+_GetMusicData(): loading base/ships/syreen/penetrator.mod
+    decoder: MikMod, rate 44100 format 17
+	'base/ships/syreen/penetrator.snd' -- 28 bytes
+_GetSoundBankData(): loading base/ships/syreen/primary.wav
+_GetSoundBankData(): decoded bytes 5315
+_GetSoundBankData(): loading base/ships/syreen/secondary.wav
+_GetSoundBankData(): decoded bytes 11953
+SoundDecoder_Decode(): eof for base/ships/human/cruiser.mod
+StreamDecoderTaskFunc(): finished playing base/ships/human/cruiser.mod
+	'base/ships/orz/nemesis-icons.ani' -- 66 bytes
+	'base/ships/orz/nemesis-meleeicons.ani' -- 74 bytes
+	'base/ships/orz/nemesis.txt' -- 431 bytes
+	'base/ships/orz/nemesis-big.ani' -- 494 bytes
+	'base/ships/orz/nemesis-med.ani' -- 464 bytes
+	'base/ships/orz/nemesis-sml.ani' -- 464 bytes
+	'base/ships/orz/howitzer-big.ani' -- 672 bytes
+	'base/ships/orz/howitzer-med.ani' -- 670 bytes
+	'base/ships/orz/howitzer-sml.ani' -- 664 bytes
+	'base/ships/orz/turret-big.ani' -- 904 bytes
+	'base/ships/orz/turret-med.ani' -- 619 bytes
+	'base/ships/orz/turret-sml.ani' -- 618 bytes
+	'base/ships/orz/nemesis-cap.ani' -- 474 bytes
+	'base/ships/orz/nemesis.mod' -- 6889 bytes
+_GetMusicData(): loading base/ships/orz/nemesis.mod
+    decoder: MikMod, rate 44100 format 17
+	'base/ships/orz/nemesis.snd' -- 61 bytes
+_GetSoundBankData(): loading base/ships/orz/primary.wav
+_GetSoundBankData(): decoded bytes 3375
+_GetSoundBankData(): loading base/ships/orz/secondary.wav
+_GetSoundBankData(): decoded bytes 2687
+_GetSoundBankData(): loading base/ships/orz/intruder.wav
+_GetSoundBankData(): decoded bytes 6749
+_GetSoundBankData(): loading base/ships/orz/zap.wav
+_GetSoundBankData(): decoded bytes 1011
+_GetSoundBankData(): loading base/ships/orz/argh.wav
+_GetSoundBankData(): decoded bytes 3256
+SoundDecoder_Decode(): eof for base/ships/human/cruiser.mod
+StreamDecoderTaskFunc(): finished playing base/ships/human/cruiser.mod
+	'base/ships/melnorme/trader-icons.ani' -- 63 bytes
+	'base/ships/melnorme/trader-meleeicons.ani' -- 72 bytes
+	'base/ships/melnorme/trader.txt' -- 411 bytes
+	'base/ships/melnorme/trader-big.ani' -- 480 bytes
+	'base/ships/melnorme/trader-med.ani' -- 450 bytes
+	'base/ships/melnorme/trader-sml.ani' -- 448 bytes
+	'base/ships/melnorme/pumpup-big.ani' -- 737 bytes
+	'base/ships/melnorme/pumpup-med.ani' -- 731 bytes
+	'base/ships/melnorme/pumpup-sml.ani' -- 741 bytes
+	'base/ships/melnorme/confuse-big.ani' -- 480 bytes
+	'base/ships/melnorme/confuse-med.ani' -- 464 bytes
+	'base/ships/melnorme/confuse-sml.ani' -- 465 bytes
+	'base/ships/melnorme/trader-cap.ani' -- 453 bytes
+	'base/ships/melnorme/trader.mod' -- 5449 bytes
+_GetMusicData(): loading base/ships/melnorme/trader.mod
+    decoder: MikMod, rate 44100 format 17
+	'base/ships/melnorme/trader.snd' -- 28 bytes
+_GetSoundBankData(): loading base/ships/melnorme/primary.wav
+_GetSoundBankData(): decoded bytes 3993
+_GetSoundBankData(): loading base/ships/melnorme/secondary.wav
+_GetSoundBankData(): decoded bytes 7985
+SoundDecoder_Decode(): eof for base/ships/melnorme/trader.mod
+StreamDecoderTaskFunc(): finished playing base/ships/melnorme/trader.mod
+	'base/ships/pkunk/fury-icons.ani' -- 60 bytes
+	'base/ships/pkunk/fury-meleeicons.ani' -- 68 bytes
+	'base/ships/pkunk/fury.txt' -- 371 bytes
+	'base/ships/pkunk/fury-big.ani' -- 446 bytes
+	'base/ships/pkunk/fury-med.ani' -- 416 bytes
+	'base/ships/pkunk/fury-sml.ani' -- 416 bytes
+	'base/ships/pkunk/bug-big.ani' -- 25 bytes
+	'base/ships/pkunk/bug-med.ani' -- 26 bytes
+	'base/ships/pkunk/bug-sml.ani' -- 26 bytes
+	'base/ships/pkunk/fury-cap.ani' -- 428 bytes
+	'base/ships/pkunk/fury.mod' -- 6467 bytes
+_GetMusicData(): loading base/ships/pkunk/fury.mod
+    decoder: MikMod, rate 44100 format 17
+	'base/ships/pkunk/fury.snd' -- 194 bytes
+_GetSoundBankData(): loading base/ships/pkunk/primary.wav
+_GetSoundBankData(): decoded bytes 1255
+_GetSoundBankData(): loading base/ships/pkunk/rebirth.wav
+_GetSoundBankData(): decoded bytes 8735
+_GetSoundBankData(): loading base/ships/pkunk/insult01.wav
+_GetSoundBankData(): decoded bytes 3648
+_GetSoundBankData(): loading base/ships/pkunk/insult02.wav
+_GetSoundBankData(): decoded bytes 3793
+_GetSoundBankData(): loading base/ships/pkunk/insult14.wav
+_GetSoundBankData(): decoded bytes 3030
+_GetSoundBankData(): loading base/ships/pkunk/insult03.wav
+_GetSoundBankData(): decoded bytes 7912
+_GetSoundBankData(): loading base/ships/pkunk/insult04.wav
+_GetSoundBankData(): decoded bytes 2184
+_GetSoundBankData(): loading base/ships/pkunk/insult05.wav
+_GetSoundBankData(): decoded bytes 3295
+_GetSoundBankData(): loading base/ships/pkunk/insult06.wav
+_GetSoundBankData(): decoded bytes 4039
+_GetSoundBankData(): loading base/ships/pkunk/insult07.wav
+_GetSoundBankData(): decoded bytes 4680
+_GetSoundBankData(): loading base/ships/pkunk/insult10.wav
+_GetSoundBankData(): decoded bytes 4905
+_GetSoundBankData(): loading base/ships/pkunk/insult11.wav
+_GetSoundBankData(): decoded bytes 2791
+_GetSoundBankData(): loading base/ships/pkunk/insult12.wav
+_GetSoundBankData(): decoded bytes 2766
+_GetSoundBankData(): loading base/ships/pkunk/insult13.wav
+_GetSoundBankData(): decoded bytes 4202
+SoundDecoder_Decode(): eof for base/ships/melnorme/trader.mod
+StreamDecoderTaskFunc(): finished playing base/ships/melnorme/trader.mod
+	'base/ships/thraddash/torch-icons.ani' -- 62 bytes
+	'base/ships/thraddash/torch-meleeicons.ani' -- 70 bytes
+	'base/ships/thraddash/torch.txt' -- 381 bytes
+	'base/ships/thraddash/torch-big.ani' -- 464 bytes
+	'base/ships/thraddash/torch-med.ani' -- 432 bytes
+	'base/ships/thraddash/torch-sml.ani' -- 432 bytes
+	'base/ships/thraddash/horn-big.ani' -- 416 bytes
+	'base/ships/thraddash/horn-med.ani' -- 416 bytes
+	'base/ships/thraddash/horn-sml.ani' -- 416 bytes
+	'base/ships/thraddash/napalm-big.ani' -- 225 bytes
+	'base/ships/thraddash/napalm-med.ani' -- 224 bytes
+	'base/ships/thraddash/napalm-sml.ani' -- 225 bytes
+	'base/ships/thraddash/torch-cap.ani' -- 448 bytes
+	'base/ships/thraddash/torch.mod' -- 9389 bytes
+_GetMusicData(): loading base/ships/thraddash/torch.mod
+    decoder: MikMod, rate 44100 format 17
+	'base/ships/thraddash/torch.snd' -- 28 bytes
+_GetSoundBankData(): loading base/ships/thraddash/primary.wav
+_GetSoundBankData(): decoded bytes 2481
+_GetSoundBankData(): loading base/ships/thraddash/secondary.wav
+_GetSoundBankData(): decoded bytes 865
+SoundDecoder_Decode(): eof for base/ships/thraddash/torch.mod
+StreamDecoderTaskFunc(): finished playing base/ships/thraddash/torch.mod
+	'base/ships/urquan/dreadnought-icons.ani' -- 73 bytes
+	'base/ships/urquan/dreadnought-meleeicons.ani' -- 82 bytes
+	'base/ships/urquan/dreadnought.txt' -- 467 bytes
+	'base/ships/urquan/dreadnought-big.ani' -- 560 bytes
+	'base/ships/urquan/dreadnought-med.ani' -- 528 bytes
+	'base/ships/urquan/dreadnought-sml.ani' -- 528 bytes
+	'base/ships/urquan/fusion-big.ani' -- 688 bytes
+	'base/ships/urquan/fusion-med.ani' -- 673 bytes
+	'base/ships/urquan/fusion-sml.ani' -- 672 bytes
+	'base/ships/urquan/fighter-big.ani' -- 464 bytes
+	'base/ships/urquan/fighter-med.ani' -- 464 bytes
+	'base/ships/urquan/fighter-sml.ani' -- 472 bytes
+	'base/ships/urquan/dreadnought-cap.ani' -- 537 bytes
+	'base/ships/urquan/dreadnought.mod' -- 8017 bytes
+_GetMusicData(): loading base/ships/urquan/dreadnought.mod
+    decoder: MikMod, rate 44100 format 17
+	'base/ships/urquan/dreadnought.snd' -- 64 bytes
+_GetSoundBankData(): loading base/ships/urquan/primary.wav
+_GetSoundBankData(): decoded bytes 8864
+_GetSoundBankData(): loading base/ships/urquan/secondary.wav
+_GetSoundBankData(): decoded bytes 11138
+_GetSoundBankData(): loading base/ships/urquan/fighter_laser.wav
+_GetSoundBankData(): decoded bytes 635
+_GetSoundBankData(): loading base/ships/urquan/fighter_get.wav
+_GetSoundBankData(): decoded bytes 1123
+Thread 'Unknown (probably renderer)' blocking on 'DCQ'
+SoundDecoder_Decode(): eof for base/ships/urquan/dreadnought.mod
+StreamDecoderTaskFunc(): finished playing base/ships/urquan/dreadnought.mod
+	'base/ships/yehat/terminator-icons.ani' -- 72 bytes
+	'base/ships/yehat/terminator-meleeicons.ani' -- 79 bytes
+	'base/ships/yehat/terminator.txt' -- 467 bytes
+	'base/ships/yehat/terminator-big.ani' -- 524 bytes
+	'base/ships/yehat/terminator-med.ani' -- 512 bytes
+	'base/ships/yehat/terminator-sml.ani' -- 512 bytes
+	'base/ships/yehat/missile-big.ani' -- 464 bytes
+	'base/ships/yehat/missile-med.ani' -- 464 bytes
+	'base/ships/yehat/missile-sml.ani' -- 480 bytes
+	'base/ships/yehat/shield-big.ani' -- 483 bytes
+	'base/ships/yehat/shield-med.ani' -- 464 bytes
+	'base/ships/yehat/shield-sml.ani' -- 464 bytes
+	'base/ships/yehat/terminator-cap.ani' -- 512 bytes
+	'base/ships/yehat/terminator.mod' -- 7912 bytes
+_GetMusicData(): loading base/ships/yehat/terminator.mod
+    decoder: MikMod, rate 44100 format 17
+	'base/ships/yehat/terminator.snd' -- 28 bytes
+_GetSoundBankData(): loading base/ships/yehat/primary.wav
+_GetSoundBankData(): decoded bytes 5075
+_GetSoundBankData(): loading base/ships/yehat/secondary.wav
+_GetSoundBankData(): decoded bytes 2399
+SoundDecoder_Decode(): eof for base/ships/yehat/terminator.mod
+StreamDecoderTaskFunc(): finished playing base/ships/yehat/terminator.mod
+	'base/ships/chmmr/avatar-icons.ani' -- 62 bytes
+	'base/ships/chmmr/avatar-meleeicons.ani' -- 72 bytes
+	'base/ships/chmmr/avatar.txt' -- 395 bytes
+	'base/ships/chmmr/avatar-big.ani' -- 480 bytes
+	'base/ships/chmmr/avatar-med.ani' -- 455 bytes
+	'base/ships/chmmr/avatar-sml.ani' -- 448 bytes
+	'base/ships/chmmr/muzzle-big.ani' -- 1226 bytes
+	'base/ships/chmmr/muzzle-med.ani' -- 1200 bytes
+	'base/ships/chmmr/muzzle-sml.ani' -- 1189 bytes
+	'base/ships/chmmr/satellite-big.ani' -- 248 bytes
+	'base/ships/chmmr/satellite-med.ani' -- 248 bytes
+	'base/ships/chmmr/satellite-sml.ani' -- 248 bytes
+	'base/ships/chmmr/avatar-cap.ani' -- 447 bytes
+	'base/ships/chmmr/avatar.mod' -- 9323 bytes
+_GetMusicData(): loading base/ships/chmmr/avatar.mod
+    decoder: MikMod, rate 44100 format 17
+	'base/ships/chmmr/avatar.snd' -- 28 bytes
+_GetSoundBankData(): loading base/ships/chmmr/primary.wav
+_GetSoundBankData(): decoded bytes 7501
+_GetSoundBankData(): loading base/ships/chmmr/secondary.wav
+_GetSoundBankData(): decoded bytes 1859
+SoundDecoder_Decode(): eof for base/ships/chmmr/avatar.mod
+StreamDecoderTaskFunc(): finished playing base/ships/chmmr/avatar.mod
+	'base/ships/kohrah/marauder-icons.ani' -- 66 bytes
+	'base/ships/kohrah/marauder-meleeicons.ani' -- 76 bytes
+	'base/ships/kohrah/marauder.txt' -- 471 bytes
+	'base/ships/kohrah/marauder-big.ani' -- 512 bytes
+	'base/ships/kohrah/marauder-med.ani' -- 488 bytes
+	'base/ships/kohrah/marauder-sml.ani' -- 480 bytes
+	'base/ships/kohrah/buzzsaw-big.ani' -- 242 bytes
+	'base/ships/kohrah/buzzsaw-med.ani' -- 232 bytes
+	'base/ships/kohrah/buzzsaw-sml.ani' -- 232 bytes
+	'base/ships/kohrah/gas-big.ani' -- 201 bytes
+	'base/ships/kohrah/gas-med.ani' -- 200 bytes
+	'base/ships/kohrah/gas-sml.ani' -- 200 bytes
+	'base/ships/kohrah/marauder-cap.ani' -- 481 bytes
+	'base/ships/kohrah/marauder.mod' -- 11527 bytes
+_GetMusicData(): loading base/ships/kohrah/marauder.mod
+    decoder: MikMod, rate 44100 format 17
+	'base/ships/kohrah/marauder.snd' -- 28 bytes
+_GetSoundBankData(): loading base/ships/kohrah/primary.wav
+_GetSoundBankData(): decoded bytes 11995
+_GetSoundBankData(): loading base/ships/kohrah/secondary.wav
+_GetSoundBankData(): decoded bytes 5337
+Thread 'Unknown (probably renderer)' blocking on 'DCQ'
+SoundDecoder_Decode(): eof for base/ships/kohrah/marauder.mod
+StreamDecoderTaskFunc(): finished playing base/ships/kohrah/marauder.mod
+	'base/ships/androsynth/guardian-icons.ani' -- 68 bytes
+	'base/ships/androsynth/guardian-meleeicons.ani' -- 75 bytes
+	'base/ships/androsynth/guardian.txt' -- 431 bytes
+	'base/ships/androsynth/guardian-big.ani' -- 491 bytes
+	'base/ships/androsynth/guardian-med.ani' -- 480 bytes
+	'base/ships/androsynth/guardian-sml.ani' -- 480 bytes
+	'base/ships/androsynth/bubble-big.ani' -- 84 bytes
+	'base/ships/androsynth/bubble-med.ani' -- 84 bytes
+	'base/ships/androsynth/bubble-sml.ani' -- 85 bytes
+	'base/ships/androsynth/blazer-big.ani' -- 458 bytes
+	'base/ships/androsynth/blazer-med.ani' -- 448 bytes
+	'base/ships/androsynth/blazer-sml.ani' -- 448 bytes
+	'base/ships/androsynth/guardian-cap.ani' -- 509 bytes
+	'base/ships/androsynth/guardian.mod' -- 12008 bytes
+_GetMusicData(): loading base/ships/androsynth/guardian.mod
+    decoder: MikMod, rate 44100 format 17
+	'base/ships/androsynth/guardian.snd' -- 28 bytes
+_GetSoundBankData(): loading base/ships/androsynth/primary.wav
+_GetSoundBankData(): decoded bytes 1655
+_GetSoundBankData(): loading base/ships/androsynth/secondary.wav
+_GetSoundBankData(): decoded bytes 9743
+SoundDecoder_Decode(): eof for base/ships/kohrah/marauder.mod
+StreamDecoderTaskFunc(): finished playing base/ships/kohrah/marauder.mod
+	'base/ships/utwig/jugger-icons.ani' -- 64 bytes
+	'base/ships/utwig/jugger-meleeicons.ani' -- 72 bytes
+	'base/ships/utwig/jugger.txt' -- 357 bytes
+	'base/ships/utwig/jugger-big.ani' -- 480 bytes
+	'base/ships/utwig/jugger-med.ani' -- 448 bytes
+	'base/ships/utwig/jugger-sml.ani' -- 448 bytes
+	'base/ships/utwig/lance-big.ani' -- 436 bytes
+	'base/ships/utwig/lance-med.ani' -- 436 bytes
+	'base/ships/utwig/lance-sml.ani' -- 436 bytes
+	'base/ships/utwig/jugger-cap.ani' -- 468 bytes
+	'base/ships/utwig/jugger.mod' -- 12481 bytes
+_GetMusicData(): loading base/ships/utwig/jugger.mod
+    decoder: MikMod, rate 44100 format 17
+	'base/ships/utwig/jugger.snd' -- 48 bytes
+_GetSoundBankData(): loading base/ships/utwig/primary.wav
+_GetSoundBankData(): decoded bytes 6511
+_GetSoundBankData(): loading base/ships/utwig/shieldbattgain.wav
+_GetSoundBankData(): decoded bytes 1979
+_GetSoundBankData(): loading base/ships/utwig/secondary.wav
+_GetSoundBankData(): decoded bytes 3957
+Thread 'Starcon2Main' blocking on 'DCQ'
+SoundDecoder_Decode(): eof for base/ships/utwig/jugger.mod
+StreamDecoderTaskFunc(): finished playing base/ships/utwig/jugger.mod
+	'base/ships/arilou/skiff-icons.ani' -- 62 bytes
+	'base/ships/arilou/skiff-meleeicons.ani' -- 68 bytes
+	'base/ships/arilou/skiff.txt' -- 449 bytes
+	'base/ships/arilou/skiff-big.ani' -- 433 bytes
+	'base/ships/arilou/skiff-med.ani' -- 432 bytes
+	'base/ships/arilou/skiff-sml.ani' -- 432 bytes
+	'base/ships/arilou/warp-big.ani' -- 52 bytes
+	'base/ships/arilou/warp-med.ani' -- 52 bytes
+	'base/ships/arilou/warp-sml.ani' -- 52 bytes
+	'base/ships/arilou/skiff-cap.ani' -- 470 bytes
+	'base/ships/arilou/skiff.mod' -- 9218 bytes
+_GetMusicData(): loading base/ships/arilou/skiff.mod
+    decoder: MikMod, rate 44100 format 17
+	'base/ships/arilou/skiff.snd' -- 28 bytes
+_GetSoundBankData(): loading base/ships/arilou/primary.wav
+_GetSoundBankData(): decoded bytes 6469
+_GetSoundBankData(): loading base/ships/arilou/secondary.wav
+_GetSoundBankData(): decoded bytes 13587
+SoundDecoder_Decode(): eof for base/ships/arilou/skiff.mod
+StreamDecoderTaskFunc(): finished playing base/ships/arilou/skiff.mod
+	'base/ships/urquan/dreadnought-icons.ani' -- 73 bytes
+	'base/ships/urquan/dreadnought-meleeicons.ani' -- 82 bytes
+	'base/ships/urquan/dreadnought.txt' -- 467 bytes
+	'base/ships/urquan/dreadnought-big.ani' -- 560 bytes
+	'base/ships/urquan/dreadnought-med.ani' -- 528 bytes
+	'base/ships/urquan/dreadnought-sml.ani' -- 528 bytes
+	'base/ships/urquan/fusion-big.ani' -- 688 bytes
+	'base/ships/urquan/fusion-med.ani' -- 673 bytes
+	'base/ships/urquan/fusion-sml.ani' -- 672 bytes
+	'base/ships/urquan/fighter-big.ani' -- 464 bytes
+	'base/ships/urquan/fighter-med.ani' -- 464 bytes
+	'base/ships/urquan/fighter-sml.ani' -- 472 bytes
+	'base/ships/urquan/dreadnought-cap.ani' -- 537 bytes
+	'base/ships/urquan/dreadnought.mod' -- 8017 bytes
+_GetMusicData(): loading base/ships/urquan/dreadnought.mod
+    decoder: MikMod, rate 44100 format 17
+	'base/ships/urquan/dreadnought.snd' -- 64 bytes
+_GetSoundBankData(): loading base/ships/urquan/primary.wav
+_GetSoundBankData(): decoded bytes 8864
+_GetSoundBankData(): loading base/ships/urquan/secondary.wav
+_GetSoundBankData(): decoded bytes 11138
+_GetSoundBankData(): loading base/ships/urquan/fighter_laser.wav
+_GetSoundBankData(): decoded bytes 635
+_GetSoundBankData(): loading base/ships/urquan/fighter_get.wav
+_GetSoundBankData(): decoded bytes 1123
+Thread 'Unknown (probably renderer)' blocking on 'DCQ'
+SoundDecoder_Decode(): eof for base/ships/urquan/dreadnought.mod
+StreamDecoderTaskFunc(): finished playing base/ships/urquan/dreadnought.mod
+	'base/ships/shofixti/scout-icons.ani' -- 62 bytes
+	'base/ships/shofixti/scout-meleeicons.ani' -- 68 bytes
+	'base/ships/shofixti/scout.txt' -- 441 bytes
+	'base/ships/shofixti/scout-big.ani' -- 432 bytes
+	'base/ships/shofixti/scout-med.ani' -- 432 bytes
+	'base/ships/shofixti/scout-sml.ani' -- 432 bytes
+	'base/ships/shofixti/missile-big.ani' -- 464 bytes
+	'base/ships/shofixti/missile-med.ani' -- 464 bytes
+	'base/ships/shofixti/missile-sml.ani' -- 480 bytes
+	'base/ships/shofixti/destruct-big.ani' -- 262 bytes
+	'base/ships/shofixti/destruct-med.ani' -- 262 bytes
+	'base/ships/shofixti/destruct-sml.ani' -- 259 bytes
+	'base/ships/shofixti/scout-cap.ani' -- 609 bytes
+	'base/ships/shofixti/scout.mod' -- 9218 bytes
+_GetMusicData(): loading base/ships/shofixti/scout.mod
+    decoder: MikMod, rate 44100 format 17
+	'base/ships/shofixti/scout.snd' -- 28 bytes
+_GetSoundBankData(): loading base/ships/shofixti/primary.wav
+_GetSoundBankData(): decoded bytes 2481
+_GetSoundBankData(): loading base/ships/shofixti/secondary.wav
+_GetSoundBankData(): decoded bytes 11433
+SoundDecoder_Decode(): eof for base/ships/urquan/dreadnought.mod
+StreamDecoderTaskFunc(): finished playing base/ships/urquan/dreadnought.mod
+	'base/ships/mycon/podship-icons.ani' -- 66 bytes
+	'base/ships/mycon/podship-meleeicons.ani' -- 74 bytes
+	'base/ships/mycon/podship.txt' -- 371 bytes
+	'base/ships/mycon/podship-big.ani' -- 496 bytes
+	'base/ships/mycon/podship-med.ani' -- 464 bytes
+	'base/ships/mycon/podship-sml.ani' -- 464 bytes
+	'base/ships/mycon/plasma-big.ani' -- 553 bytes
+	'base/ships/mycon/plasma-med.ani' -- 542 bytes
+	'base/ships/mycon/plasma-sml.ani' -- 533 bytes
+	'base/ships/mycon/podship-cap.ani' -- 467 bytes
+	'base/ships/mycon/podship.mod' -- 9908 bytes
+_GetMusicData(): loading base/ships/mycon/podship.mod
+    decoder: MikMod, rate 44100 format 17
+	'base/ships/mycon/podship.snd' -- 28 bytes
+_GetSoundBankData(): loading base/ships/mycon/primary.wav
+_GetSoundBankData(): decoded bytes 7123
+_GetSoundBankData(): loading base/ships/mycon/secondary.wav
+_GetSoundBankData(): decoded bytes 3053
+SoundDecoder_Decode(): eof for base/ships/mycon/podship.mod
+StreamDecoderTaskFunc(): finished playing base/ships/mycon/podship.mod
+Trying to get undefined resource 'music.meleemenu'
+Thread 'Starcon2Main' blocking on 'DCQ'
+	'base/ui/newgame.ani' -- 189 bytes
+Trying to get undefined resource 'music.mainmenu'

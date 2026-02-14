@@ -1,0 +1,35 @@
+CMakeFiles/uqm.dir/sc2/src/port.c.obj: \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\port.c \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\port.h \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\config.h \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\config_win.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/unistd.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/io.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/string.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/process.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/getopt.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/dirent.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/limits.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/malloc.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/errno.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/sys/stat.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/ctype.h

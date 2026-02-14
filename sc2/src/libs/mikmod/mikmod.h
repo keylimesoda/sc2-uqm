@@ -85,9 +85,8 @@ typedef char CHAR;
 
 
 
-#if defined(__arch64__) || defined(__alpha) || defined(__x86_64) \
-	|| defined(__powerpc64__) || defined(_M_IA64) || defined(_M_AMD64)
-/* 64 bit architectures */
+#if (defined(__arch64__) || defined(__alpha) || defined(__powerpc64__) || defined(_M_IA64)) || ((defined(__x86_64) || defined(_M_AMD64)) && !defined(_WIN32) && !defined(__MINGW32__))
+/* 64 bit architectures (excluding Windows LLP64 where long is 32-bit) */
 
 typedef signed char     SBYTE;      /* 1 byte, signed */
 typedef unsigned char   UBYTE;      /* 1 byte, unsigned */

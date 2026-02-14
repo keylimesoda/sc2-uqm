@@ -1,0 +1,3 @@
+D:\Test\UQM_port\sc2-uqm\vcpkg\downloads\tools\cmake-3.31.10-windows\cmake-3.31.10-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\uqm.dir/objects.a
+D:\Test\UQM_port\sc2-uqm\mingw64\bin\ar.exe qc CMakeFiles\uqm.dir/objects.a @CMakeFiles\uqm.dir\objects1.rsp
+D:\Test\UQM_port\sc2-uqm\mingw64\bin\gcc.exe -mwindows -Wl,--whole-archive CMakeFiles\uqm.dir/objects.a -Wl,--no-whole-archive -o uqm.exe -Wl,--out-implib,libuqm.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\uqm.dir\linkLibs.rsp

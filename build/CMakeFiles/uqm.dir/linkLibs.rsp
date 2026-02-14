@@ -1,0 +1,1 @@
+  -L"D:/Test/UQM_port/sc2-uqm/vcpkg_installed/x64-mingw-dynamic/lib"  -lmingw32 -lSDLmain libSDL_image_static.a -lpng -lSDL -lvorbisfile -lvorbis -logg -lzlib -lopengl32 -lglu32 -lws2_32 -lwinmm -lgdi32 -ldxguid -limm32 -lversion -ldbghelp -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

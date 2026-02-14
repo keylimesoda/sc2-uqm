@@ -1,0 +1,1 @@
+-I"D:/Test/UQM_port/sc2-uqm/sc2/src" -I"D:/Test/UQM_port/sc2-uqm/sc2/src/libs" -I"D:/Test/UQM_port/sc2-uqm/sc2/src/regex" -I"D:/Test/UQM_port/sc2-uqm/vcpkg_installed/x64-mingw-dynamic/include" -I"D:/Test/UQM_port/sc2-uqm/vcpkg_installed/x64-mingw-dynamic/include/SDL" -I"D:/Test/UQM_port/sc2-uqm/deps/SDL_image-1.2.12"

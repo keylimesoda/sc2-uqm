@@ -1,0 +1,36 @@
+CMakeFiles/uqm.dir/sc2/src/libs/lua/lapi.c.obj: \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\libs\lua\lapi.c \
+ D:/Test/UQM_port/sc2-uqm/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/stdarg.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/string.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\libs\lua\lua.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/stddef.h \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\libs\lua\luaconf.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/limits.h \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\libs\lua\lapi.h \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\libs\lua\llimits.h \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\libs\lua\lstate.h \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\libs\lua\lobject.h \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\libs\lua\ltm.h \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\libs\lua\lzio.h \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\libs\lua\lmem.h \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\libs\lua\ldebug.h \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\libs\lua\ldo.h \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\libs\lua\lfunc.h \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\libs\lua\lgc.h \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\libs\lua\lstring.h \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\libs\lua\ltable.h \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\libs\lua\lundump.h \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\libs\lua\lvm.h

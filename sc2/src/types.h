@@ -54,9 +54,8 @@
 extern "C" {
 #endif
 
-#if defined(__arch64__) || defined(__alpha) || defined(__x86_64) \
-		|| defined(_M_IA64) || defined(_M_AMD64)
-	/* 64-bit platforms */
+#if (defined(__arch64__) || defined(__alpha) || defined(_M_IA64)) || ((defined(__x86_64) || defined(_M_AMD64)) && !defined(_WIN32) && !defined(__MINGW32__))
+	/* 64-bit platforms where long is 8 bytes (excludes Windows LLP64) */
 #	define UQM_INT16   short
 #	define UQM_INT32   int
 #	define UQM_INT64   long

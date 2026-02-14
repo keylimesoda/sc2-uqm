@@ -1,0 +1,18 @@
+CMakeFiles/uqm.dir/sc2/src/getopt/getopt1.c.obj: \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\getopt\getopt1.c \
+ D:/Test/UQM_port/sc2-uqm/sc2/src/config.h \
+ D:/Test/UQM_port/sc2-uqm/sc2/src/config_win.h \
+ D:\Test\UQM_port\sc2-uqm\sc2\src\getopt\getopt.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/ctype.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/stdio.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+ D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h

@@ -453,14 +453,10 @@ mountAddonDir (uio_Repository *repository, uio_MountHandle *contentMountHandle,
 }
 
 static void
-mountDirZips (uio_DirHandle *dirHandle, const char *mountPoint,
-		int relativeFlags, uio_MountHandle *relativeHandle)
+mountDirZipsHelper (uio_DirHandle *dirHandle, const char *mountPoint,
+		int relativeFlags, uio_MountHandle *relativeHandle,
+		uio_AutoMount **autoMount, uio_DirList *dirList)
 {
-	static uio_AutoMount *autoMount[] = { NULL };
-	uio_DirList *dirList;
-
-	dirList = uio_getDirList (dirHandle, "", "\\.([zZ][iI][pP]|[uU][qQ][mM])$",
-			match_MATCH_REGEX);
 	if (dirList != NULL)
 	{
 		int i;
@@ -480,14 +476,37 @@ mountDirZips (uio_DirHandle *dirHandle, const char *mountPoint,
 	uio_DirList_free (dirList);
 }
 
+static void
+mountDirZips (uio_DirHandle *dirHandle, const char *mountPoint,
+		int relativeFlags, uio_MountHandle *relativeHandle)
+{
+	static uio_AutoMount *autoMount[] = { NULL };
+	uio_DirList *dirList;
+
+	/* Use suffix match instead of regex -- the internal regex
+	 * library may have its own 64-bit issues.  Two passes for
+	 * .zip and .uqm files. */
+	dirList = uio_getDirList (dirHandle, "", ".zip",
+			match_MATCH_SUFFIX);
+	mountDirZipsHelper (dirHandle, mountPoint, relativeFlags,
+			relativeHandle, autoMount, dirList);
+
+	dirList = uio_getDirList (dirHandle, "", ".uqm",
+			match_MATCH_SUFFIX);
+	mountDirZipsHelper (dirHandle, mountPoint, relativeFlags,
+			relativeHandle, autoMount, dirList);
+}
+
 int
 loadIndices (uio_DirHandle *dir)
 {
 	uio_DirList *indices;
 	int numLoaded = 0;
 
-	indices = uio_getDirList (dir, "", "\\.[rR][mM][pP]$",
-			match_MATCH_REGEX);		
+	/* Use suffix match instead of regex to avoid crash in regex
+	 * library on 64-bit Windows. */
+	indices = uio_getDirList (dir, "", ".rmp",
+			match_MATCH_SUFFIX);
 
 	if (indices != NULL)
 	{

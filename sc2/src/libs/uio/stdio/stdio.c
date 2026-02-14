@@ -533,7 +533,7 @@ stdio_openEntries(uio_PDirHandle *pDirHandle) {
 	pathEnd[2] = '\0';
 	iterator = stdio_EntriesIterator_new(0);
 	iterator->dirHandle = _findfirst(path, &iterator->findData);
-	if (iterator->dirHandle == 1) {
+	if (iterator->dirHandle == -1) {
 		if (errno != ENOENT) {
 			stdio_EntriesIterator_delete(iterator);
 			return NULL;

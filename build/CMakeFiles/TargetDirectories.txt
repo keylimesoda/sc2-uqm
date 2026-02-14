@@ -1,0 +1,4 @@
+D:/Test/UQM_port/sc2-uqm/build/CMakeFiles/SDL_image_static.dir
+D:/Test/UQM_port/sc2-uqm/build/CMakeFiles/uqm.dir
+D:/Test/UQM_port/sc2-uqm/build/CMakeFiles/edit_cache.dir
+D:/Test/UQM_port/sc2-uqm/build/CMakeFiles/rebuild_cache.dir

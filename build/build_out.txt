@@ -1,0 +1,79 @@
+[  4%] Built target SDL_image_static
+[  4%] Building C object CMakeFiles/uqm.dir/sc2/src/options.c.obj
+In file included from D:\Test\UQM_port\sc2-uqm\sc2\src\options.h:25,
+                 from D:\Test\UQM_port\sc2-uqm\sc2\src\options.c:22:
+D:\Test\UQM_port\sc2-uqm\sc2\src\port.h:74:16: warning: "strcasecmp" redefined
+   74 | #       define strcasecmp stricmp
+      |                ^~~~~~~~~~
+In file included from D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/io.h:10,
+                 from D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/unistd.h:10,
+                 from D:\Test\UQM_port\sc2-uqm\sc2\src\port.h:64:
+D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/string.h:120:9: note: this is the location of the previous definition
+  120 | #define strcasecmp _stricmp
+      |         ^~~~~~~~~~
+D:\Test\UQM_port\sc2-uqm\sc2\src\port.h:105:16: warning: "PATH_MAX" redefined
+  105 | #       define PATH_MAX  _MAX_PATH
+      |                ^~~~~~~~
+In file included from D:/Test/UQM_port/sc2-uqm/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h:210,
+                 from D:/Test/UQM_port/sc2-uqm/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h:7,
+                 from D:/Test/UQM_port/sc2-uqm/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h:34,
+                 from D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/stdlib.h:11,
+                 from D:\Test\UQM_port\sc2-uqm\sc2\src\port.h:104:
+D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/limits.h:20:9: note: this is the location of the previous definition
+   20 | #define PATH_MAX        260
+      |         ^~~~~~~~
+In file included from D:\Test\UQM_port\sc2-uqm\sc2\src\libs/uio/getint.h:27,
+                 from D:\Test\UQM_port\sc2-uqm\sc2\src\libs/uio/io.h:44,
+                 from D:\Test\UQM_port\sc2-uqm\sc2\src\libs/uio.h:28,
+                 from D:\Test\UQM_port\sc2-uqm\sc2\src\options.h:27:
+D:\Test\UQM_port\sc2-uqm\sc2\src\libs/uio/uioport.h:149:16: warning: "S_IRGRP" redefined
+  149 | #       define S_IRGRP 0
+      |                ^~~~~~~
+In file included from D:\Test\UQM_port\sc2-uqm\sc2\src\port.h:137:
+D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/sys/stat.h:155:9: note: this is the location of the previous definition
+  155 | #define S_IRGRP    (S_IRUSR >> 3)
+      |         ^~~~~~~
+D:\Test\UQM_port\sc2-uqm\sc2\src\libs/uio/uioport.h:150:16: warning: "S_IWGRP" redefined
+  150 | #       define S_IWGRP 0
+      |                ^~~~~~~
+D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/sys/stat.h:156:9: note: this is the location of the previous definition
+  156 | #define S_IWGRP    (S_IWUSR >> 3)
+      |         ^~~~~~~
+D:\Test\UQM_port\sc2-uqm\sc2\src\libs/uio/uioport.h:151:16: warning: "S_IXGRP" redefined
+  151 | #       define S_IXGRP 0
+      |                ^~~~~~~
+D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/sys/stat.h:157:9: note: this is the location of the previous definition
+  157 | #define S_IXGRP    (S_IXUSR >> 3)
+      |         ^~~~~~~
+D:\Test\UQM_port\sc2-uqm\sc2\src\libs/uio/uioport.h:152:16: warning: "S_IROTH" redefined
+  152 | #       define S_IROTH 0
+      |                ^~~~~~~
+D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/sys/stat.h:160:9: note: this is the location of the previous definition
+  160 | #define S_IROTH    (S_IRGRP >> 3)
+      |         ^~~~~~~
+D:\Test\UQM_port\sc2-uqm\sc2\src\libs/uio/uioport.h:153:16: warning: "S_IWOTH" redefined
+  153 | #       define S_IWOTH 0
+      |                ^~~~~~~
+D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/sys/stat.h:161:9: note: this is the location of the previous definition
+  161 | #define S_IWOTH    (S_IWGRP >> 3)
+      |         ^~~~~~~
+D:\Test\UQM_port\sc2-uqm\sc2\src\libs/uio/uioport.h:154:16: warning: "S_IXOTH" redefined
+  154 | #       define S_IXOTH 0
+      |                ^~~~~~~
+D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/sys/stat.h:162:9: note: this is the location of the previous definition
+  162 | #define S_IXOTH    (S_IXGRP >> 3)
+      |         ^~~~~~~
+D:\Test\UQM_port\sc2-uqm\sc2\src\libs/uio/uioport.h:155:16: warning: "S_IRWXG" redefined
+  155 | #       define S_IRWXG 0
+      |                ^~~~~~~
+D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/sys/stat.h:158:9: note: this is the location of the previous definition
+  158 | #define S_IRWXG    (S_IRWXU >> 3)
+      |         ^~~~~~~
+D:\Test\UQM_port\sc2-uqm\sc2\src\libs/uio/uioport.h:156:16: warning: "S_IRWXO" redefined
+  156 | #       define S_IRWXO 0
+      |                ^~~~~~~
+D:/Test/UQM_port/sc2-uqm/mingw64/x86_64-w64-mingw32/include/sys/stat.h:163:9: note: this is the location of the previous definition
+  163 | #define S_IRWXO    (S_IRWXG >> 3)
+      |         ^~~~~~~
+[  5%] Linking C executable uqm.exe
+[100%] Built target uqm
