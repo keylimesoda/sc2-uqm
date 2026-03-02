@@ -15,11 +15,15 @@ An Android port of [The Ur-Quan Masters](http://sc2.sourceforge.net/), the open-
 
 ### Prerequisites
 
-- Android Studio (or Gradle CLI)
-- Android NDK (CMake-based native build)
-- Git (for cloning submodules)
+- **Android Studio** (2024.x or later recommended) — or Gradle CLI
+- **Android SDK** with:
+  - SDK Platform API 35
+  - NDK (latest stable, e.g. 27.x)
+  - CMake (3.22+)
+- **Git** (for cloning submodules)
+- **Java 17+** (bundled with Android Studio, or install separately for CLI builds)
 
-### Clone & Build
+### Clone
 
 ```bash
 git clone --recurse-submodules https://github.com/keylimesoda/sc2-uqm.git
@@ -31,18 +35,40 @@ If you already cloned without `--recurse-submodules`:
 git submodule update --init --recursive
 ```
 
-Then open in Android Studio, or build from the command line:
+### Download Content Packs
+
+The game requires UQM content packs to run. Download them from
+[UQM downloads](http://sc2.sourceforge.net/downloads.php) and place them as follows:
+
+| File | Destination | Required? |
+|---|---|---|
+| `uqm-0.8.0-content.uqm` | `app/src/main/assets/content/` | **Yes** |
+| `uqm-0.8.0-3domusic.uqm` | `app/src/main/assets/content/addons/` | Optional (3DO music) |
+| `uqm-0.8.0-voice.uqm` | `app/src/main/assets/content/addons/` | Optional (voice acting, ~110 MB) |
+
+### Build
+
+Create `local.properties` pointing to your Android SDK:
 ```bash
-./gradlew assembleDebug
+echo "sdk.dir=/path/to/Android/Sdk" > local.properties
 ```
 
-The APK will be at `app/build/outputs/apk/debug/SC2-uqm.apk`.
+Then build:
+```bash
+# Linux / macOS
+./gradlew assembleDebug
 
-### Content Packs
+# Windows
+gradlew.bat assembleDebug
+```
 
-Place UQM content packs in `app/src/main/assets/content/addons/`:
-- `uqm-0.8.0-3domusic.uqm` — 3DO music (included)
-- `uqm-0.8.0-voice.uqm` — Voice acting (~110 MB, not included in repo due to size — download from [UQM downloads](http://sc2.sourceforge.net/downloads.php))
+The APK will be at `app/build/outputs/apk/debug/app-debug.apk`.
+
+### Install on Device / Emulator
+
+```bash
+adb install app/build/outputs/apk/debug/app-debug.apk
+```
 
 ## Project Structure
 
@@ -61,7 +87,7 @@ uqm-src/                  — Patched UQM 0.8.0 game source (SDL2-compatible)
 
 ## Related
 
-- [sc2-uqm-win64](https://github.com/keylimesoda/sc2-uqm-win64) — Windows 64-bit desktop build (SDL 1.2)
+- [sc2-uqm-win64](https://github.com/keylimesoda/sc2-uqm-win64) — Windows 64-bit desktop build
 - [The Ur-Quan Masters](http://sc2.sourceforge.net/) — Original open-source project
 - [Upstream source](https://github.com/JKtheSlacker/sc2-uqm) — JKtheSlacker's sc2-uqm fork
 
