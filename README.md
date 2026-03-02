@@ -5,6 +5,7 @@ An Android port of [The Ur-Quan Masters](http://sc2.sourceforge.net/), the open-
 ## Features
 
 - Full UQM 0.8.0 gameplay on Android
+- **Native 64-bit** ARM build (`arm64-v8a`), with 32-bit (`armeabi-v7a`) support
 - SDL2-based rendering and input
 - Touch overlay controls for navigation, combat, and menus
 - Supports Android 5.0+ (API 21), targeting API 35
