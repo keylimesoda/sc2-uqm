@@ -1,0 +1,66 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace "org.uqm.game"
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "org.uqm.game"
+        minSdkVersion 21
+        targetSdkVersion 35
+        versionCode 1
+        versionName "0.8.0"
+
+        externalNativeBuild {
+            cmake {
+                arguments "-DANDROID_STL=c++_static"
+                abiFilters 'arm64-v8a', 'armeabi-v7a'
+            }
+        }
+
+        ndk {
+            abiFilters 'arm64-v8a', 'armeabi-v7a'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable true
+            jniDebuggable true
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path 'jni/CMakeLists.txt'
+            version '3.22.1'
+        }
+    }
+
+    sourceSets.main {
+        // Ship content in the assets directory
+        assets.srcDirs = ['src/main/assets']
+    }
+
+    // Prevent compression of .uqm files in assets (they're already zips)
+    aaptOptions {
+        noCompress 'uqm'
+    }
+
+    lint {
+        abortOnError false
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+}

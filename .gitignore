@@ -1,0 +1,24 @@
+# Android/Gradle build outputs
+.gradle/
+build/
+app/build/
+app/.cxx/
+local.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Native build intermediates
+*.o
+*.so
+*.a
+
+# Large content packs (exceed GitHub 100MB file limit)
+# Voice pack must be downloaded separately — see README
+app/src/main/assets/content/addons/uqm-0.8.0-voice.uqm
